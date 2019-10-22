@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="./app.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Practice Website</title>
+</head>
+
+<body>
+    <header>
+        <div id="dicePicture">
+            <img src="./dnddice.jpg" alt="black and red d&d dice">
+        </div>
+    </header>
+
+    <h1>D&D Dice Roller</h1>
+
+    <div id="button">
+        <button id ='button1' type="button" onclick="diceRoll()">Roll</button>
+    </div>
+
+    <div id="diceOptions">
+        <select id="diceType">
+            <option value="Select">Select die to roll</option>
+            <option value="4">d4</option>
+            <option value="6">d6</option>
+            <option value="8">d8</option>
+            <option value="10">d10</option>
+            <option value="12">d12</option>
+            <option value="20">d20</option>
+        </select>
+    </div>
+
+    <div id="para">
+        <p id='demo'>Demo</p>
+    </div>
+    
+</body>
+</html>

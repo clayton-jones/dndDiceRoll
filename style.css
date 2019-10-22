@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(148, 143, 143);
+}
+#dicePicture {
+    text-align: center;
+}
+
+div > img {
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    font-size: 28px;
+    border: none;
+    background-color: rgb(96, 119, 111);
+    border-style: outset;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    color: rgb(221, 208, 208);
+    border-style: outset;
+}
+
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+::selection {
+    outline: orchid;
+}
+
+#diceOptions {
+    text-align: center;
+}
+
+#para {
+    text-align: center;
+}
