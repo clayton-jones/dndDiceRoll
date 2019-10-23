@@ -5,7 +5,7 @@ diceRoll = () => {
     var dieSize = document.getElementById("diceType").value;
     var roll;
     if (dieSize === "Select") {
-        document.getElementById("demo").innerHTML = "Please select die size";
+        document.getElementById("demo").innerHTML = "Please select a die";
     } else {
         roll = Math.floor((Math.random() * dieSize) + 1);
         var crit;
