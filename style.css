@@ -1,13 +1,18 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(148, 143, 143);
+    margin: 0px;
 }
 #dicePicture {
     text-align: center;
 }
 
+header {
+    background-color: rgb(197, 197, 202);
+}
+
 div > img {
-    height: 100px;
+    height: 160px;
 }
 
 h1 {
@@ -50,4 +55,14 @@ button:active {
 
 #para {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 80px;
+}
+
+footer > a {
+    color: black;
+    font-style: none;
 }
